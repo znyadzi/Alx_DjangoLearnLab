@@ -9,6 +9,7 @@ def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LibraryProject.settings')
     try:
         from django.core.management import execute_from_command_line
+        
     except ImportError as erImport:
         raise ImportError(
             "Django Import Error"
